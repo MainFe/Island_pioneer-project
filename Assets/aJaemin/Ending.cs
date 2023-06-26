@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Ending : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject go;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            go.SetActive(true);
+        }
     }
 }
