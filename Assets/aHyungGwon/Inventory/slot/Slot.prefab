@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07b0895745b5bd54287c090371ca91d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a9b952ccbbb955340a052b5dcae90b7d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 6731279722640327165}
   - component: {fileID: 3439388425340036}
   - component: {fileID: 2455475635006498235}
+  - component: {fileID: 7396926663396422337}
   m_Layer: 5
   m_Name: ItemImage
   m_TagString: Untagged
@@ -198,6 +199,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7396926663396422337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109885125530346914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31983df1f2ba8e14195774fc8da8491e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
 --- !u!1 &4468839250474919539
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_Color: {r: 0.4056604, g: 0.39609292, b: 0.39609292, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
