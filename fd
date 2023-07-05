@@ -1,0 +1,114 @@
+[33mcommit 441faeaa02013aee36557e72f2bf0602a6d69de1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MainFe <jungga2019@gmail.com>
+Date:   Mon Jul 3 20:49:00 2023 +0900
+
+    맵 약간 추가
+
+[33mcommit 998e86f8f1b6282b3050c9d293e6f6fe10d68053[m
+Author: broccoli1962 <aq0011@naver.com>
+Date:   Sun Jul 2 00:16:16 2023 +0900
+
+    Inventory System
+    
+    다 못만듬
+
+[33mcommit 72c20a129b704ef325a562306fc8d72b4038eafd[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Sat Jul 1 23:36:00 2023 +0900
+
+    엔딩크레딧(4)
+    
+    엔딩크레딧의 시간을 15초 -> 20초 변경
+
+[33mcommit c0e98cb89a0a72c59fef49b2847e5c50ed05a83e[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Sat Jul 1 23:18:49 2023 +0900
+
+    엔딩크레딧(3)
+    
+    필요없는 코드 제거
+
+[33mcommit 455c781c1a8fe8a22f19612b509802bae8d99e87[m
+Author: MainFe <jungga2019@gmail.com>
+Date:   Sat Jul 1 19:31:25 2023 +0900
+
+    에셋 추가
+    
+    Terrain, 텍스쳐, 3d모델, 시네머신 추가
+
+[33mcommit 0f8f0bf3ca2724c5234c40a112ff8de54ecee74e[m
+Author: broccoli1962 <aq0011@naver.com>
+Date:   Fri Jun 30 18:11:19 2023 +0900
+
+    test
+    
+    test
+
+[33mcommit fdea129629a4eb390d37f7b2040761529fd5ed9d[m
+Author: MainFe <jungga2019@gmail.com>
+Date:   Fri Jun 30 18:08:49 2023 +0900
+
+    씬 내용 변경 테스트
+    
+    씬 내용 변경 테스트
+
+[33mcommit babc983a7c851013584ebe64b142160603dd3a6a[m
+Author: broccoli1962 <aq0011@naver.com>
+Date:   Fri Jun 30 18:06:13 2023 +0900
+
+    캐릭터 업로드
+    
+    애니메이터 구현
+
+[33mcommit fa602d572c4f3303f841688460998960e87433fd[m
+Merge: 60cef10 d974ad4
+Author: broccoli1962 <aq0011@naver.com>
+Date:   Fri Jun 30 17:38:07 2023 +0900
+
+    Merge branch 'main' of https://github.com/MainFe/Island_pioneer-project
+
+[33mcommit 60cef10834ec5c90153f21a7c0db613ea9b8b5a0[m
+Author: broccoli1962 <aq0011@naver.com>
+Date:   Fri Jun 30 17:37:59 2023 +0900
+
+    캐릭터 움직임 구현
+    
+    상하 좌우 움직임과 애니메이션 구현
+
+[33mcommit d974ad4a55ce656e082054970099c5816fe4f17a[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Fri Jun 30 16:16:25 2023 +0900
+
+    엔딩크레딧(2)
+
+[33mcommit d358d76f7263a87fe3d02d0101f8350ceaa4b4ea[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Mon Jun 26 20:39:01 2023 +0900
+
+    엔딩크레딧(1)
+
+[33mcommit 2a8e9f8c7bdfa875ea4349e6aefba4cd726cfa83[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Mon Jun 26 19:34:36 2023 +0900
+
+    엔딩크레딧
+    
+    엔딩크레딧의 틀과 폰트
+
+[33mcommit 80fdea9c920245f88ce4ba3bb4c7d6b20b97dfd5[m
+Author: Seokjaemin <hodu27@naver.com>
+Date:   Mon Jun 26 16:11:48 2023 +0900
+
+    Test
+
+[33mcommit e97019e7e2da67bef78cb2c7e6317e5426793107[m
+Author: MainFe <jungga2019@gmail.com>
+Date:   Sat Jun 24 20:51:02 2023 +0900
+
+    프로젝트 초기 파일
+
+[33mcommit 3831f04e7d05fbad69f0e06546e8547a132d7728[m
+Author: MainFe <53177959+MainFe@users.noreply.github.com>
+Date:   Sat Jun 24 19:51:59 2023 +0900
+
+    Initial commit
