@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c302796169dd79a4585c52fc1a3ae2e2, type: 3}
   m_Name: tsetItem2
   m_EditorClassIdentifier: 
+  id: 1
   itemName: test2
+  value: 10
   itemImage: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}

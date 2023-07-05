@@ -1,49 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    public List<Item> items;
+    public static Inventory Instance;
+    public List<Item> Items = new List<Item>();
 
-    [SerializeField]
-    private Transform slotParent;
-    [SerializeField]
-    private Slots[] slots;
+    public Transform ItemContent;
+    public GameObject InventoryItem;
 
-    private void OnValidate()
+    private void Awake()
     {
-        slots = slotParent.GetComponentsInChildren<Slots>();
-    }
-    void Awake()
-    {
-        FreshSlot();
+        Instance = this;
     }
 
-    public void FreshSlot()
+    public void Add(Item item)
     {
-        int i = 0;
-        for (; i < items.Count && i < slots.Length; i++)
-        {
-            slots[i].item = items[i];
-        }
-        for (; i < slots.Length; i++)
-        {
-            slots[i].item = null;
-        }
+        Items.Add(item);
+        ListItem();
     }
 
-    public void AddItem(Item _item)
+    public void Remove(Item item)
     {
-        if (items.Count < slots.Length)
+        Items.Remove(item);
+        ListItem();
+    }
+
+    public void ListItem()
+    {
+        foreach(var item in Items)
         {
-            items.Add(_item);
-            FreshSlot();
-        }
-        else
-        {
-            print("½½·ÔÀÌ °¡µæ Â÷ ÀÖ½À´Ï´Ù.");
+            GameObject obj = Instantiate(InventoryItem, ItemContent);
+            var itemImage = obj.transform.Find("ItemImage").GetComponent<Image>();
+
+            itemImage.sprite = item.itemImage;
         }
     }
 }
