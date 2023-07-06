@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class ItemInteraction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    RaycastHit hit;
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Inventory.PickUpItem(hit.collider.GetComponent<ItemObject>());
+        }
     }
 }

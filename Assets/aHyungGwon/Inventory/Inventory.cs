@@ -26,4 +26,9 @@ public class Inventory : MonoBehaviour
     {
         
     }
+
+    public void PickUpItem()
+    {
+
+    }
 }
