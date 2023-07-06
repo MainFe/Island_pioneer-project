@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemInteraction : MonoBehaviour
 {
+    Character character;
     Inventory inventory;
 
     private void Start()
@@ -11,12 +12,16 @@ public class ItemInteraction : MonoBehaviour
         inventory = GetComponent<Inventory>();
     }
 
-    RaycastHit hit;
     private void Update()
+    {
+
+    }
+    private void OnCollisionEnter(Collision collision)
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            inventory.PickUpItem(hit.collider.GetComponent<ItemObject>());
+            inventory.PickUpItem(collision.collider.GetComponent<ItemObject>());
+            Debug.Log("상호작용 발생");
         }
     }
 }
