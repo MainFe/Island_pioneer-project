@@ -5,5 +5,4 @@ using UnityEngine;
 public class ItemObject : MonoBehaviour
 {
     public Item itemStats;
-    public int amount;
 }

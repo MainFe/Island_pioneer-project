@@ -29,6 +29,12 @@ public class Inventory : MonoBehaviour
 
     public void PickUpItem(ItemObject obj)
     {
-
+        for(int i = 0; i < slots.Length; i++) {
+            {
+                if (slots[i].ItemInSlot != null && slots[i].ItemInSlot.id == obj.itemStats.id)
+                {
+                    
+                }
+            } }
     }
 }

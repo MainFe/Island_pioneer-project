@@ -7,10 +7,8 @@ using TMPro;
 public class Slots : MonoBehaviour
 {
     public Item ItemInSlot;
-    public int AmountInSlot;
 
     RawImage image;
-    TextMeshProUGUI txt_amount;
 
     public void SetStats()
     {
@@ -20,9 +18,6 @@ public class Slots : MonoBehaviour
         }
 
         image = GetComponentInChildren<RawImage>();
-        txt_amount = GetComponentInChildren<TextMeshProUGUI>();
-
         image.texture = ItemInSlot.itemImage;
-        txt_amount.text = $"{AmountInSlot}x";
     }
 }
