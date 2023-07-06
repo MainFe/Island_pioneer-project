@@ -7,6 +7,16 @@ public class Item : ScriptableObject
 {
     public int id;
     public string itemName;
-    public int value;
-    public Sprite itemImage;
+
+    [TextArea(3, 3)] public string discription;
+
+    public enum Types
+    {
+        food,
+        equipment,
+        craftingMaterial
+    }
+    public Types type;
+    public GameObject prefab; 
+    public Texture itemImage;
 }

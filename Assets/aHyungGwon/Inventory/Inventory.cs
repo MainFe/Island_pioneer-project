@@ -5,37 +5,25 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    public static Inventory Instance;
-    public List<Item> Items = new List<Item>();
-
-    public Transform ItemContent;
-    public GameObject InventoryItem;
+    [SerializeField] public Slots[] slots = new Slots[40];
+    [SerializeField] GameObject InventoryUI;
 
     private void Awake()
     {
-        Instance = this;
-    }
-
-    public void Add(Item item)
-    {
-        Items.Add(item);
-        ListItem();
-    }
-
-    public void Remove(Item item)
-    {
-        Items.Remove(item);
-        ListItem();
-    }
-
-    public void ListItem()
-    {
-        foreach(var item in Items)
+        for (int i = 0; i < slots.Length; i++)
         {
-            GameObject obj = Instantiate(InventoryItem, ItemContent);
-            var itemImage = obj.transform.Find("ItemImage").GetComponent<Image>();
-
-            itemImage.sprite = item.itemImage;
+            if (slots[i].ItemInSlot == null)
+            {
+                for (int k = 0; k < slots[i].transform.childCount; k++)
+                {
+                    slots[i].transform.GetChild(k).gameObject.SetActive(false);
+                }
+            }
         }
+    }
+
+    private void Update()
+    {
+        
     }
 }

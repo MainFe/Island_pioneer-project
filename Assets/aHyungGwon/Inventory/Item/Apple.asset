@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c302796169dd79a4585c52fc1a3ae2e2, type: 3}
-  m_Name: testitem
+  m_Name: Apple
   m_EditorClassIdentifier: 
-  id: 1
-  itemName: apple
-  value: 10
+  id: 0
+  itemName: Apple
+  discription: This is a test Apple
+  type: 0
+  prefab: {fileID: 547450982354612003, guid: 059f951f28c81fe47bc4103651e0c208, type: 3}
   itemImage: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
