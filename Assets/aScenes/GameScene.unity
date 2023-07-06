@@ -270,7 +270,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41962452}
-  m_LocalRotation: {x: 0.51449573, y: 0.000000016495864, z: -0.000000009897518, w: 0.857493}
+  m_LocalRotation: {x: 0.51449573, y: -0.000000016495862, z: 0.000000009897518, w: 0.857493}
   m_LocalPosition: {x: 457.19, y: 8.209, z: -4.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -660,7 +660,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542080862}
-  m_LocalRotation: {x: 0.51449573, y: 0.000000016495864, z: -0.000000009897518, w: 0.857493}
+  m_LocalRotation: {x: 0.51449573, y: -0.000000016495862, z: 0.000000009897518, w: 0.857493}
   m_LocalPosition: {x: 457.19, y: 8.209, z: -4.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1274,25 +1274,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5837957d6292284d9fe15163d7aec74, type: 3}
---- !u!1 &996011982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 547450982354612003, guid: 059f951f28c81fe47bc4103651e0c208,
-    type: 3}
-  m_PrefabInstance: {fileID: 3806628298085318460}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &996011989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996011982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52de2c2cf50e2e409e0dc7082eb7393, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemStats: {fileID: 11400000, guid: aeac8763312ec1a418380a147b91eccb, type: 2}
 --- !u!1001 &1016618195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2682,6 +2663,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot
       objectReference: {fileID: 0}
+    - target: {fileID: 4769703727430125509, guid: d5837957d6292284d9fe15163d7aec74,
+        type: 3}
+      propertyPath: ItemInSlot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396926663396422337, guid: d5837957d6292284d9fe15163d7aec74,
+        type: 3}
+      propertyPath: ItemInSlot
+      value: 
+      objectReference: {fileID: 11400000, guid: aeac8763312ec1a418380a147b91eccb,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2761,12 +2753,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Test Apple
       objectReference: {fileID: 0}
+    - target: {fileID: 4412461290555483744, guid: 059f951f28c81fe47bc4103651e0c208,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 547450982354612003, guid: 059f951f28c81fe47bc4103651e0c208,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 996011989}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059f951f28c81fe47bc4103651e0c208, type: 3}
