@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class ItemInteraction : MonoBehaviour
 {
+    Inventory inventory;
+
+    private void Start()
+    {
+        inventory = GetComponent<Inventory>();
+    }
+
     RaycastHit hit;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Inventory.PickUpItem(hit.collider.GetComponent<ItemObject>());
+            inventory.PickUpItem(hit.collider.GetComponent<ItemObject>());
         }
     }
 }
