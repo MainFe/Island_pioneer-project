@@ -8,26 +8,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] public Slots[] slots = new Slots[40];
     [SerializeField] GameObject InventoryUI;
 
-    private void Awake()
-    {
-        for (int i = 0; i < slots.Length; i++)
-        {
-            if (slots[i].ItemInSlot == null)
-            {
-                for (int k = 0; k < slots[i].transform.childCount; k++)
-                {
-                    slots[i].transform.GetChild(k).gameObject.SetActive(false);
-                }
-            }
-        }
-    }
-
-    private void Update()
-    {
-        
-    }
-
-    public void PickUpItem(ItemObject obj)
+    public void PickUpItem(ItemObject obj) //아이템을 줍는다.
     {
         for(int i = 0; i < slots.Length; i++) {
             {
@@ -36,7 +17,7 @@ public class Inventory : MonoBehaviour
                     Debug.Log("아이템 중복");
                     return;
                 }
-                else if(slots[i].ItemInSlot == null)
+                else if(slots[i].ItemInSlot == null) //슬롯이 비었을때
                 {
                     slots[i].ItemInSlot = obj.itemStats;
                     Destroy(obj.gameObject);

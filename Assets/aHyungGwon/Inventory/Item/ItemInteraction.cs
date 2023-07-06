@@ -15,11 +15,12 @@ public class ItemInteraction : MonoBehaviour
     {
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (other.gameObject.CompareTag("Item"))
         {
-            inventory.PickUpItem(collision.collider.GetComponent<ItemObject>());
+            Debug.Log("물체 확인");
+            inventory.PickUpItem(other.GetComponent<ItemObject>());
         }
     }
 }
