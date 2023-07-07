@@ -7,11 +7,13 @@ public class Slots : MonoBehaviour
 {
     public Item ItemInSlot;
 
-    Sprite image;
+    private Image image;
 
     public void SetStats() //자식에게 이미지 반영
     {
-        image = this.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite;        
-        image = ItemInSlot.itemImage;
+        image = transform.GetChild(0).GetChild(0).GetComponent<Image>();
+        Debug.Log("이미지 할당");
+        Debug.Log(image);
+        image.sprite = ItemInSlot.itemImage;
     }
 }
