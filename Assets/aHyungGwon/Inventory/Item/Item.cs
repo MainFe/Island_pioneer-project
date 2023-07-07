@@ -18,5 +18,5 @@ public class Item : ScriptableObject
     }
     public Types type;
     public GameObject prefab; 
-    public Sprite itemImage;
+    public Texture itemImage;
 }
