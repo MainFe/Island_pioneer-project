@@ -10,11 +10,7 @@ public class ItemInteraction : MonoBehaviour
     {
         inventory = GetComponent<Inventory>();
     }
-
-    private void Update()
-    {
-    }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Item"))

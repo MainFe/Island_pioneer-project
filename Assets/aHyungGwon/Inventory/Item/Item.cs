@@ -19,4 +19,5 @@ public class Item : ScriptableObject
     public Types type;
     public GameObject prefab; 
     public Texture itemImage;
+    public int maxStack;
 }

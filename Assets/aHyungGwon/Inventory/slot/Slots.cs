@@ -6,19 +6,13 @@ using UnityEngine.UI;
 public class Slots : MonoBehaviour
 {
     public Item ItemInSlot;
+    public int AmountInSlot;
 
     RawImage image;
 
-    public void SetStats()
+    public void SetStats() //자식에게 이미지 반영
     {
-        SetStats(image);
-    }
-
-    public void SetStats(RawImage image) //자식에게 이미지 반영
-    {
-        image = GetComponentInChildren<RawImage>();
-        Debug.Log("이미지 할당");
-        Debug.Log(image);
+        image = transform.GetChild(0).GetChild(0).GetComponent<RawImage>();
         image.texture = ItemInSlot.itemImage;
     }
 }

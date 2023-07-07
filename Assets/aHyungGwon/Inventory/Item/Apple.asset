@@ -18,3 +18,4 @@ MonoBehaviour:
   type: 0
   prefab: {fileID: 547450982354612003, guid: 059f951f28c81fe47bc4103651e0c208, type: 3}
   itemImage: {fileID: 2800000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
+  maxStack: 1
