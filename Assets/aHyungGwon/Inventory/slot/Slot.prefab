@@ -286,3 +286,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInSlot: {fileID: 0}
+  AmountInSlot: 0
