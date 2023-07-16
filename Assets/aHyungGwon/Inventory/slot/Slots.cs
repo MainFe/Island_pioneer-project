@@ -14,5 +14,6 @@ public class Slots : MonoBehaviour
     {
         image = transform.GetChild(0).GetChild(0).GetComponent<RawImage>();
         image.texture = ItemInSlot.itemImage;
+        image.color = new Color(1,1,1);
     }
 }
