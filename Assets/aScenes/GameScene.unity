@@ -1906,6 +1906,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 829839627}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &767304677 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4769703727430125509, guid: d5837957d6292284d9fe15163d7aec74,
+    type: 3}
+  m_PrefabInstance: {fileID: 829839627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31983df1f2ba8e14195774fc8da8491e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &829839627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4290,7 +4302,7 @@ MonoBehaviour:
   - {fileID: 1717868053}
   - {fileID: 1417439272}
   - {fileID: 1248711279}
-  - {fileID: 0}
+  - {fileID: 767304677}
   - {fileID: 1947188617}
   InventoryUI: {fileID: 1187883922}
 --- !u!114 &1428169369
@@ -6337,7 +6349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
