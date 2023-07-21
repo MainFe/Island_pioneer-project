@@ -9,7 +9,7 @@ public class GameEdInteract : MonoBehaviour
     Character character;
     public GameObject player;
     Rigidbody rigid;
-    
+    public GameObject fade;
     
     void Start()
     {
@@ -28,8 +28,15 @@ public class GameEdInteract : MonoBehaviour
                 player.transform.position = new Vector3(-10.5f, 3.5f, 29.6f);
                 player.transform.rotation = Quaternion.Euler(new Vector3(0,-90,0));
                 character.speed = 0;
-                SceneManager.LoadScene("EndingScene");
+                fade.GetComponent<FadeEffect>().fadeState = FadeState.FadeOut;
+                fade.GetComponent<FadeEffect>().OnFade();
+                Invoke("MoveScene", 1.5f);
             }
         }
+    }
+
+    private void MoveScene()
+    {
+        SceneManager.LoadScene("EndingScene");
     }
 }
