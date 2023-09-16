@@ -12083,8 +12083,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 1000
+  hpDecreaseTime: 100
   hungry: 100
-  hungryDecreaseTime: 10
+  hungryDecreaseTime: 10000
   cold: 100
   sliders_Gauge:
   - {fileID: 235607998}

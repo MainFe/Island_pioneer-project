@@ -11,11 +11,10 @@ public class NewBehaviourScript : MonoBehaviour
     private int hp;
     private int currentHp;
     
-    /* //체력이 줄어드는 속도
+    //체력이 줄어드는 속도
     [SerializeField]
     private int hpDecreaseTime;
     private int currentHpDecreaseTime;
-    */
 
     //배고픔
     [SerializeField]
@@ -47,8 +46,23 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Hungry();
+        DecreaseHPOverTime();
         GaugeUpdate();
+    }
+
+    private void DecreaseHPOverTime()
+    {
+        if (currentHp > 0)
+        {
+            if (currentHpDecreaseTime <= hpDecreaseTime)
+                currentHpDecreaseTime++;
+        }
+        else
+        {
+            Debug.Log("체력 수치가 0이 되었습니다.");
+        }
     }
 
     private void Hungry()
@@ -66,7 +80,7 @@ public class NewBehaviourScript : MonoBehaviour
         else
         {
             Debug.Log("배고픔 수치가 0이 되었습니다.");
-            DecreaseHP(1);
+            DecreaseHPOverTime();
         }
     }
 
@@ -83,14 +97,18 @@ public class NewBehaviourScript : MonoBehaviour
             currentHp += _count;
         else
             currentHp = hp;
+
+        GaugeUpdate();
     }
 
     public void DecreaseHP(int _count)
     {
         currentHp -= _count;
 
-        if (currentHp <= 0)
-            Debug.Log("체력 수치가 0이 되었습니다.");
+        //if (currentHp <= 0)
+        //    Debug.Log("체력 수치가 0이 되었습니다.");
+
+        GaugeUpdate();
     }
 
     public void IncreaseHungry(int _count)
@@ -99,6 +117,8 @@ public class NewBehaviourScript : MonoBehaviour
             currentHungry += _count;
         else
             currentHungry = hungry;
+
+        GaugeUpdate();
     }
 
     public void DecreaseHungry(int _count)
@@ -107,5 +127,7 @@ public class NewBehaviourScript : MonoBehaviour
             currentHungry = 0;
         else
             currentHungry -= _count;
+
+        GaugeUpdate();
     }
 }
