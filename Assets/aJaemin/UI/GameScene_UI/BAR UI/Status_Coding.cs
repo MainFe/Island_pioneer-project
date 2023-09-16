@@ -36,44 +36,29 @@ public class NewBehaviourScript : MonoBehaviour
     private Slider[] sliders_Gauge;
     private const int HP = 0, HUNGRY = 1, COLD = 2;
 
+    // 처음 실행
     void Start()
     {
+        // 체력, 배고픔, 추위 최대값으로 초기화
         currentHp = hp;
         currentHungry = hungry;
         currentCold = cold;
     }
 
-    // Update is called once per frame
+    // 프레임 마다 실행
     void Update()
     {
-        
         Hungry();
-        DecreaseHPOverTime();
         GaugeUpdate();
-    }
-
-    private void DecreaseHPOverTime()
-    {
-        if (currentHp > 0)
-        {
-            if (currentHpDecreaseTime <= hpDecreaseTime)
-                currentHpDecreaseTime++;
-            else
-            {
-                //currentHp--;
-                currentHpDecreaseTime = 0;
-            }
-        }
-        else
-        {
-            Debug.Log("체력 수치가 0이 되었습니다.");
-        }
     }
 
     private void Hungry()
     {
+        // 만약, 배고픔이 0보다 크다면,
         if (currentHungry > 0)
         {
+            // hungryDecreaseTime의 시간마다, currentHungryDecreaseTime 1씩 늘어난다.
+            // 만약, currentHungryDecreaseTime이 hungryDecreaseTime만큼 되면, 배고픔이 1줄어든다.
             if (currentHungryDecreaseTime <= hungryDecreaseTime)
                 currentHungryDecreaseTime++;
             else
@@ -86,6 +71,24 @@ public class NewBehaviourScript : MonoBehaviour
         {
             Debug.Log("배고픔 수치가 0이 되었습니다.");
             DecreaseHPOverTime();
+        }
+    }
+
+    private void DecreaseHPOverTime()
+    {
+        if (currentHp > 0)
+        {
+            if (currentHpDecreaseTime <= hpDecreaseTime)
+                currentHpDecreaseTime++;
+            else
+            {
+                currentHp--;
+                currentHpDecreaseTime = 0;
+            }
+        }
+        else
+        {
+            Debug.Log("체력 수치가 0이 되었습니다.");
         }
     }
 
