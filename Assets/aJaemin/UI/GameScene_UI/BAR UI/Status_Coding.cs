@@ -58,6 +58,11 @@ public class NewBehaviourScript : MonoBehaviour
         {
             if (currentHpDecreaseTime <= hpDecreaseTime)
                 currentHpDecreaseTime++;
+            else
+            {
+                //currentHp--;
+                currentHpDecreaseTime = 0;
+            }
         }
         else
         {
