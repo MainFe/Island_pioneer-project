@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 54, y: 1048}
+  m_AnchoredPosition: {x: -101.200005, y: 1048}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55433416
@@ -411,7 +411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: 131.59991}
+  m_AnchoredPosition: {x: -196.6, y: 131.59991}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434123638
@@ -547,7 +547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: -676}
+  m_AnchoredPosition: {x: -196.6, y: -676}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565125205
@@ -683,7 +683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: -265.4001}
+  m_AnchoredPosition: {x: -196.6, y: -265.4001}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634859256
@@ -819,7 +819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: 419}
+  m_AnchoredPosition: {x: 52.69999, y: 419}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639707235
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3F0\uD2B8: https://seed.line.me/index_kr.html"
+  m_text: 'Hungry ui: https://assetstore.unity.com/packages/2d/gui/icons/2d-items-set-handpainted-210729'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b39ed0c0d7fe9ca448aae994352a3365, type: 2}
   m_sharedMaterial: {fileID: 5148179618752851535, guid: b39ed0c0d7fe9ca448aae994352a3365,
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.04921, y: 0, z: -115.96681, w: 0}
+  m_margin: {x: -110.04921, y: 0, z: -338.8163, w: -22.206554}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -955,7 +955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: 971}
+  m_AnchoredPosition: {x: 52.69999, y: 971}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750438716
@@ -1191,7 +1191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: 902}
+  m_AnchoredPosition: {x: -196.6, y: 902}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929228769
@@ -1327,7 +1327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: 419.59998}
+  m_AnchoredPosition: {x: -196.6, y: 419.59998}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &983368399
@@ -1463,7 +1463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.8, y: 1118}
+  m_AnchoredPosition: {x: -205, y: 1118}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086120512
@@ -1599,7 +1599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: 131}
+  m_AnchoredPosition: {x: 52.69999, y: 131}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100295855
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3F0\uD2B8: https://seed.line.me/index_kr.html"
+  m_text: 'Hp ui: https://assetstore.unity.com/packages/2d/gui/icons/easter-gui-142479'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b39ed0c0d7fe9ca448aae994352a3365, type: 2}
   m_sharedMaterial: {fileID: 5148179618752851535, guid: b39ed0c0d7fe9ca448aae994352a3365,
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.04921, y: 0, z: -115.96681, w: 0}
+  m_margin: {x: -110.04921, y: 0, z: -336.20462, w: -25.747711}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1735,7 +1735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: -676.6}
+  m_AnchoredPosition: {x: 52.69999, y: -676.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1173629525
@@ -1758,7 +1758,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3F0\uD2B8: https://seed.line.me/index_kr.html"
+  m_text: "Sleep ui: <a href=\"https://www.flaticon.com/kr/free-icons/\" title=\"\uCFE8\uCFE8
+    \uC544\uC774\uCF58\">\uCFE8\uCFE8 \uC544\uC774\uCF58  \uC81C\uC791\uC790: Freepik
+    - Flaticon</a>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b39ed0c0d7fe9ca448aae994352a3365, type: 2}
   m_sharedMaterial: {fileID: 5148179618752851535, guid: b39ed0c0d7fe9ca448aae994352a3365,
@@ -1822,7 +1824,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.04921, y: 0, z: -115.96681, w: 0}
+  m_margin: {x: -110.04921, y: 0, z: -318.6357, w: -24.891481}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1989,7 +1991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: 624.6}
+  m_AnchoredPosition: {x: -196.6, y: 624.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249268162
@@ -2125,7 +2127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: -939.6}
+  m_AnchoredPosition: {x: 52.69999, y: -939.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315050364
@@ -2261,7 +2263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: 624}
+  m_AnchoredPosition: {x: 52.69999, y: 624}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385542519
@@ -2284,7 +2286,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3F0\uD2B8: https://seed.line.me/index_kr.html"
+  m_text: 'Inventory ui: https://assetstore.unity.com/packages/tools/gui/item-inventory-system-45568'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b39ed0c0d7fe9ca448aae994352a3365, type: 2}
   m_sharedMaterial: {fileID: 5148179618752851535, guid: b39ed0c0d7fe9ca448aae994352a3365,
@@ -2348,7 +2350,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.04921, y: 0, z: -115.96681, w: 0}
+  m_margin: {x: -110.04921, y: 0, z: -336.25418, w: -24.87889}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2534,7 +2536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: 901.4}
+  m_AnchoredPosition: {x: 52.69999, y: 901.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706756817
@@ -2773,7 +2775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: -939}
+  m_AnchoredPosition: {x: -196.6, y: -939}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800813172
@@ -3044,7 +3046,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.4, y: 971.6}
+  m_AnchoredPosition: {x: -196.6, y: 971.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026266989
@@ -3180,7 +3182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.9, y: -266}
+  m_AnchoredPosition: {x: 52.69999, y: -278}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139623137
@@ -3203,7 +3205,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3F0\uD2B8: https://seed.line.me/index_kr.html"
+  m_text: "Coold ui: <a href=\"https://www.flaticon.com/kr/free-icons/-\" title=\"\uC5EC\uB7EC
+    \uAC00\uC9C0 \uC7A1\uB2E4\uD55C \uC544\uC774\uCF58\">\uC5EC\uB7EC \uAC00\uC9C0
+    \uC7A1\uB2E4\uD55C \uC544\uC774\uCF58  \uC81C\uC791\uC790: Good Ware - Flaticon</a>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b39ed0c0d7fe9ca448aae994352a3365, type: 2}
   m_sharedMaterial: {fileID: 5148179618752851535, guid: b39ed0c0d7fe9ca448aae994352a3365,
@@ -3267,7 +3271,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.04921, y: 0, z: -115.96681, w: 0}
+  m_margin: {x: -110.04921, y: 0, z: -331.38208, w: -26.050339}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
