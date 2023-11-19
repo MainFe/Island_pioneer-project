@@ -9,6 +9,7 @@ public class character_move : MonoBehaviour
     float vAxis;
     bool JDown;
     bool IsJump;
+    bool IsFalling;
     Vector3 moveVec;
     Rigidbody rigid;
     Animator anim;
@@ -25,7 +26,7 @@ public class character_move : MonoBehaviour
         Move();
         turn();
         Jump();
-
+        falling();
     }
     void GetInput()//버튼 입력해서 동작하게 하는것
     {
@@ -53,12 +54,33 @@ public class character_move : MonoBehaviour
             IsJump = true;
         }
     }
+    void falling()
+    {
+        
+        if(rigid.velocity.y < 0)
+        {
+            anim.SetBool("isJump", false);
+            anim.SetBool("isfalling", true);
+            anim.SetTrigger("dofalling");
+            IsFalling = true;
+            IsJump = false;
+        }
+        if(rigid.velocity.y==0)
+        {
+            anim.SetBool("isJump", false);
+            anim.SetBool("isfalling", false);
+            IsFalling = false;
+            IsJump = false;
+        }
+    }
     private void OnCollisionEnter(Collision collision)//바닥을 확인하는 변수
     {
         if(collision.gameObject.tag == "Floor")//바닥에 Floor태그를 달아 입력받음
         {
             anim.SetBool("isJump", false);
-            IsJump = false;
+            anim.SetBool("isfalling", false);
+            IsFalling = false;
+            IsJump=false;
         }
     }
 }
